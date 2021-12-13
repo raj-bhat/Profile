@@ -1,0 +1,31 @@
+ body{
+    background-color :aliceblue; 
+     display: flex;
+    flex-direction: column;
+    
+     justify-content: center; 
+     align-items: center;
+} 
+
+hr{
+    border-top: 1px solid grey;
+    width: 30%;
+} 
+.ProfilePic{
+    width: 100px;
+    border-radius: 30px;
+}
+
+.cellpadding{
+
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+}
