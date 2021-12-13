@@ -28,4 +28,10 @@ a{
 h1,h3{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: normal;
+    font-size: larger;
+}
+
+.navBar{
+padding: 10px;
+
 }
