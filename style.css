@@ -7,6 +7,11 @@
      align-items: center;
 } 
 
+p{
+    max-width: 600px;
+    margin: auto;
+}
+
 hr{
     border-top: 1px solid grey;
     width: 30%;
@@ -22,7 +27,15 @@ hr{
 }
 
 a{
+    margin-top: 10px;
     text-decoration: none;
+    background-color: khaki;
+    border-radius: 10px;
+    color:rgb(11, 61, 53);
+}
+a:hover{
+    color:#881337;
+    background-color:#bef264;
 }
 
 h1,h3{
@@ -31,7 +44,9 @@ h1,h3{
     font-size: larger;
 }
 
-.navBar{
+#navContainer{
+        margin-top: 20px;
+}
+.refLink{
 padding: 10px;
-
 }
