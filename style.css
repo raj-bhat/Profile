@@ -32,6 +32,8 @@ a{
     background-color: khaki;
     border-radius: 10px;
     color:rgb(11, 61, 53);
+    padding: 10px;
+    
 }
 a:hover{
     color:#881337;
@@ -40,13 +42,14 @@ a:hover{
 
 h1,h3{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: larger;
 }
 
 #navContainer{
         margin-top: 20px;
+        position: sticky;
 }
 .refLink{
-padding: 10px;
+
 }
