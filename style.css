@@ -17,10 +17,16 @@ p{
     margin: auto;
     
 }
+.listItem{
+
+    display: inline-block;
+}
 
 hr{
-    border-top: 1px solid grey;
+    /* border-top: 1px solid grey; */
     width: 30%;
+    /* padding-top: 15px;; */
+    margin-top: 20px;
 } 
 .ProfilePic{
     width: 100px;
@@ -50,6 +56,7 @@ h1,h3{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
     font-size: larger;
+    padding: 15px;
 }
 
 #navContainer{
