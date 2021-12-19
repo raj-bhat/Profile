@@ -15,11 +15,14 @@
 p{
     max-width: 600px;
     margin: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: larger;
     
 }
-.listItem{
-
+.Item{
     display: inline-block;
+    padding: 3px;
+    font-size: large;
 }
 
 hr{
@@ -54,6 +57,7 @@ a:hover{
 
 h1,h3{
     font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: larger;
     padding: 15px;
