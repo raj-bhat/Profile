@@ -3,12 +3,13 @@
      padding:0;
  }
  body{
-    background-color :aliceblue; 
+    background:linear-gradient(0deg,rgb(253,143,103),rgb(212,99,163));
      display: flex;
     flex-direction: column;
     
      justify-content: center; 
      align-items: center;
+     font-family: 'Open Sans Condensed', sans-serif;
 } 
 
 
@@ -53,7 +54,7 @@ a{
 }
 a:hover{
     color:#881337;
-    background-color:#bef264;
+    background-color:rgb(82,128,251);
 }
 
 h1,h3{
@@ -82,6 +83,10 @@ h1,h3{
     border-style: hidden;
     
 }
+.formInput:focus{
+   outline: none;
+    
+}
 
 .header{
     height: 70px;
@@ -102,4 +107,14 @@ h1,h3{
     background-color: lightblue;
     padding-top: 20px;
     
+}
+.refLink{
+    margin-right:15px;
+}
+
+.userQuery{
+    margin-top: 20px;
+}
+.Label{
+    margin-bottom: 10px;
 }
